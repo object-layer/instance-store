@@ -4,6 +4,11 @@ node_js:
 branches:
   only:
   - master
+services:
+- mysql
+before_script:
+- mysql --user=root --execute='CREATE DATABASE IF NOT EXISTS test;'
+- mysql --user=root --execute='GRANT ALL ON test.* TO test@localhost;'
 cache:
   directories:
   - node_modules
