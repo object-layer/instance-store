@@ -1,7 +1,7 @@
 {
   "name": "instance-store",
   "version": "0.1.0",
-  "description": "Document store with polymorphism ability",
+  "description": "Document store with transactions and polymorphism",
   "author": "Manuel Vila <mvila@3base.com>",
   "license": "MIT",
   "main": "lib/index.js",
