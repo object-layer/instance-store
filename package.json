@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "better-clone": "^1.0.3",
-    "document-store": "^0.9.0",
+    "document-store": "^0.9.1",
     "event-emitter-mixin": "^0.3.0",
     "set-immediate-promise": "^1.0.3"
   },
